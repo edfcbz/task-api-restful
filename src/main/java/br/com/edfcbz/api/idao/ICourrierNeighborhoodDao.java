@@ -1,0 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.com.edfcbz.api.idao;
+
+//import ca.skipthedishes.dao.impl.IAddressDaoImpl;
+import com.google.inject.ImplementedBy;
+
+import br.com.edfcbz.api.bean.to.CourrierNeighborhoodTO;
+import br.com.edfcbz.api.dao.impl.ICourrierNeighborhoodDaoImpl;
+
+/**
+ *.
+ * @author Eduardo
+ */
+@ImplementedBy(ICourrierNeighborhoodDaoImpl.class)
+public interface ICourrierNeighborhoodDao   extends IDao<CourrierNeighborhoodTO> {
+    
+}
