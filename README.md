@@ -28,14 +28,13 @@ Search **Implantation** about project setup on development environment.
 ## ⚙️ Testing environment
 * 8 - Open browser and type: http://localhost:8080/store (This url will list all store registered in store table.
 
-## ⚙️ Documentation Swegger
+## ⚙️ Documentation Swagger
 * 9 - Open browser and type: http://localhost:/swagger-ui.html (This url will open a page with and example for API use.
 
 ## 🛠️ Building tools
 
 * Eclipse
 * Maven
-
 
 ## 📌 Version
 
