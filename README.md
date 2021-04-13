@@ -17,15 +17,13 @@ Search **Implantation** about project setup on development environment.
 
 * 2 - Install and Run the MySQL 
 * 3 - Install and Run the MySQL Workbench
-* 4 - Run DB_APIREST.sql
+* 4 - Run DB_APIREST.sql by MySQL Workbench (This step will create the SCHEMA and will insert basic data into tables) 
 
 ### 🔧 Development Environment Setup - DEVELOPMENT
 
-* 5 - Run the MySQL DB and MySQL Workbench
-* 6 - Run DB_APIREST.sql
-* 7 - Import the project on your IDE (Ex.: Eclipse)
-* 8 - Running java class \src\main\java\br\com\edfcbz\api\Startup.java
-
+* 5 - Import the project on your IDE (Ex.: Eclipse)
+* 6 - Locate, Config and Run the file JOOQConfig.java at path /task-api-restful/src/main/java/br/com/edfcbz/api/app/JOOQConfig.java (Project source)
+* 7 - Running java class \src\main\java\br\com\edfcbz\api\Startup.java (Will start an Application Server)
 
 Diga como essa etapa será:
 
@@ -81,11 +79,9 @@ Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoS
 
 Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
 
-## ✒️ Autores
+## ✒️ Author
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Developer** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
 * **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
