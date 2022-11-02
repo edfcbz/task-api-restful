@@ -42,7 +42,7 @@ Search **Implantation** about project setup on development environment.
 
 ## ✒️ Author
 
-* **Developer** - //https://github.com/edfcbz
+* **Developer** - edfcbz@gmail.com
 
 ## 📄 License
 
