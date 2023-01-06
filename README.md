@@ -41,7 +41,8 @@ Search **Implantation** about project setup on development environment.
 
 ## 📌 Version
 
-* Tags in https://github.com/task-api-restful
+* V1.0 First Release
+* V1.1 Added Cache feature in findAll() methods in the Controller classes
 
 ## ✒️ Author
 
