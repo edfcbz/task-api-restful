@@ -31,6 +31,9 @@ Search **Implantation** about project setup on development environment.
 ## ⚙️ Documentation Swagger
 * 9 - Open browser and type: http://localhost:/swagger-ui.html (This url will open a page with and example for API use.
 
+## ⚙️ Cache Functionality
+* 10 - This RESTFul API has the cache implementation in all findAll() methods of the Control classes. For the implementation, Redis was used, which runs on localhost on port 6379 (default ) for installation and the necessary entries were made in the application.properties file, to inform Spring about the use of REDIS. To identify control classes that use caching functionality, look for the @Cacheable annotation in these classes and their methods.
+
 ## 🛠️ Building tools
 
 * Eclipse
