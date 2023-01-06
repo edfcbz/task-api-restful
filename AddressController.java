@@ -39,8 +39,7 @@ public class AddressController {
 		list.forEach( p -> p.add(linkTo(methodOn(AddressController.class).findById(p.getKey())).withSelfRel()));	
 		list.forEach( p -> p.add(linkTo(methodOn(CityController.class).findById(p.getCity().getKey())).withRel("City")));	
 		list.forEach( p -> p.add(linkTo(methodOn(ProvinceController.class).findById(p.getCity().getProvince().getKey())).withRel("Province")));	
-		list.forEach( p -> p.add(linkTo(methodOn(CountryController.class).findById(p.getCity().getProvince().getCountry().getKey())).withRel("Country")));	
-		System.out.println("CONSULTANDO LISTA DE ENDEREÇOS");
+		list.forEach( p -> p.add(linkTo(methodOn(CountryController.class).findById(p.getCity().getProvince().getCountry().getKey())).withRel("Country")));		
 		return list;
 	}	
 	
