@@ -34,6 +34,9 @@ Search **Implantation** about project setup on development environment.
 ## ⚙️ Cache Functionality
 * 10 - This RESTFul API has the cache implementation in all findAll() methods of the Control classes. For the implementation, Redis was used, which runs on localhost on port 6379 (default ) for installation and the necessary entries were made in the application.properties file, to inform Spring about the use of REDIS. To identify control classes that use caching functionality, look for the @Cacheable annotation in these classes and their methods. Obs.: No Docker Containner is necessary.
 
+## ⚙️ Singleton 
+* 10 - The Singleton concept was applied in ConnectionFactory using Ennun for that. This Enum is named ConnectionEnum and has a public getConnection method, withou parameter.
+
 ## 🛠️ Building tools
 
 * Eclipse
@@ -43,6 +46,8 @@ Search **Implantation** about project setup on development environment.
 
 * V1.0 First Release
 * V1.1 Added Cache feature in findAll() methods in the Controller classes
+* V2.0 The CommectionFactory class had a private method Constructor and was changed to ConnectionEnum keeping the getConnection() method
+
 
 ## ✒️ Author
 
